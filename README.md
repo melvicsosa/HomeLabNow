@@ -109,9 +109,6 @@ npm run deploy
 
 **Melvic Sosa**
 - Website: [https://melvicsosa.dev/](https://melvicsosa.dev/)
-- LinkedIn: [@jancarlosduartemosquea](https://www.linkedin.com/in/jancarlosduartemosquea/)
-- YouTube: [@JanCarlosDM](https://www.youtube.com/@JanCarlosDM)
-- Instagram: [@dan.fisher.dev](http://instagram.com/dan.fisher.dev/)
 
 ## 🙏 Acknowledgments
 
