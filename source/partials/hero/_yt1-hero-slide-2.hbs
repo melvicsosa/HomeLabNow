@@ -1,0 +1,65 @@
+{{! Slides #2 }}
+<div class="swiper-slide group">
+  <div
+    class="relative isolate h-full w-full bg-primary"
+  >
+    <div class="container h-full">
+      <div class="grid h-full grid-cols-12 gap-y-10 md:gap-x-6 lg:gap-x-[30px]">
+
+        {{! Content }}
+        <div
+          class="col-span-full md:col-span-8 md:col-start-3 lg:col-span-10 lg:col-start-2"
+        >
+          <div class="px-6 pt-28 text-center md:pt-36 lg:px-0 lg:pt-44">
+
+            {{! Meta }}
+            <div
+              class="mb-2 flex flex-wrap justify-center gap-1 text-sm text-white lg:mb-6 lg:pt-2 lg:text-base lg:text-white"
+            >
+              <div>190k views</div>
+              <div>-</div>
+              <div>13 hours ago</div>
+            </div>
+            {{! Meta / End }}
+
+            {{! Title }}
+            <h2
+              class="mb-4 text-2xl font-bold leading-none tracking-tighter sm:text-2.5xl md:mb-6 md:text-3xl md:leading-none lg:mb-12 lg:text-5.5xl lg:leading-none"
+            >
+              <a href="single.html" class="hover:opacity-80 transition-opacity duration-300">
+                We Unbox the “Power Computer Bundle” for Gaming
+              </a>
+            </h2>
+            {{! Title / End }}
+
+            {{! Excerpt }}
+            <div
+              class="mx-auto mb-8 max-w-xl text-sm tracking-tighter text-white lg:mb-12 lg:text-lg lg:leading-8"
+            >
+              Check us out as we do a deep dive into the newest and most
+              powerful gaming computer the market has to offer!
+            </div>
+            {{! Excerpt / End }}
+
+            {{! Read More }}
+            {{> _yt1-btn-outline label="Watch it Now!" variant="outline-white" size="md" }}
+            {{! Read More / End }}
+          </div>
+        </div>
+        {{! Content / End }}
+
+      </div>
+    </div>
+
+    {{! Background Image Layer }}
+    <div
+      class="absolute inset-0 -z-10 bg-[url('../../../assets/img/yt1/samples/hero-img-1.jpg')] bg-cover bg-center bg-no-repeat ease-out transition-transform duration-[8000ms] group-[.swiper-slide-active]:scale-110"
+    ></div>
+    {{! Background Image Layer / End }}
+
+    {{! Layer }}
+    <div class="absolute inset-0 -z-10 bg-gray-900/80"></div>
+    {{! Layer / End }}
+  </div>
+</div>
+{{! Slides #2 / End }}

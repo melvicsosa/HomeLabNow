@@ -1,0 +1,256 @@
+{{! Header }}
+<header
+  class="relative isolate min-h-[540px] overflow-hidden bg-gray-900 bg-cover bg-center bg-no-repeat md:min-h-[600px] lg:min-h-[720px] xl:min-h-[800px]"
+>
+
+  {{! Left Side }}
+  <div class="absolute inset-y-0 left-0 -z-[5] w-1/2 bg-primary"></div>
+  {{! Left Side / End }}
+
+  {{! Right Side }}
+  <div class="absolute inset-y-0 right-0 -z-[5] w-1/2 bg-secondary"></div>
+  {{! Right Side / End }}
+
+  {{! Center }}
+  <div
+    class="absolute inset-y-0 left-1/2 -z-[4] w-[1300px] -translate-x-1/2 bg-gray-900"
+  ></div>
+  {{! Center / End }}
+
+  {{! Left Decoration }}
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    class="absolute left-1/2 -z-[3] aspect-[659/800] w-[659px] -translate-x-[calc(100%+300px)] fill-primary"
+    viewBox="0 0 659 800"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M511.064,-13.773 L390.524,507.232 L658.1000,512.717 L574.074,849.999 L-192.1000,849.999 L-192.1000,-21.1000 L511.064,-13.773 Z"
+    ></path>
+  </svg>
+  {{! Left Decoration / End }}
+
+  {{! Right Decoration }}
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    class="absolute right-1/2 -z-[3] aspect-[659/800] w-[659px] translate-x-[calc(100%+264px)] fill-secondary"
+    viewBox="0 0 659 800"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M339.694,-18.999 L144.787,284.668 L381.459,287.453 L-0.000,852.999 L890.1000,852.999 L890.1000,-2.284 L339.694,-18.999 Z"
+    ></path>
+  </svg>
+  {{! Right Decoration / End }}
+
+  <div class="container">
+
+    {{! Header Nav }}
+    <header class="grid min-h-[100px] grid-cols-12 items-center gap-x-4">
+
+      {{! Nav }}
+      <nav
+        class="col-span-4 flex items-center justify-start gap-x-7 md:col-span-8 md:col-start-3 md:justify-center lg:gap-x-8 xl:col-start-4 xl:col-end-10 xl:gap-x-10"
+      >
+        {{! Nav Left }}
+        <ul
+          class="hidden w-full justify-end gap-x-5 font-heading text-xs font-bold uppercase md:flex lg:gap-x-6 xl:gap-x-10 [&>li>a]:relative [&>li>a]:inline-block [&>li>a]:text-white after:[&>li>a]:absolute after:[&>li>a]:-bottom-1 after:[&>li>a]:left-0 after:[&>li>a]:h-[2px] after:[&>li>a]:w-full after:[&>li>a]:origin-right after:[&>li>a]:scale-x-0 after:[&>li>a]:bg-white after:[&>li>a]:transition-transform hover:after:[&>li>a]:origin-left hover:after:[&>li>a]:scale-x-100"
+        >
+          <li><a class="" href="index.html">Home</a></li>
+          <li><a href="#section-demo-pages">Demo Pages</a></li>
+        </ul>
+        {{! Nav Left / ENd }}
+
+        {{! Logo }}
+        <div class="shrink-0">
+          <div
+            class="relative inline-flex aspect-square w-[44px] items-center justify-center overflow-hidden rounded-full bg-gray-900"
+          >
+            {{! Decorations }}
+            <div class="absolute inset-0 aspect-square w-[44px] rotate-[30deg]">
+              <div
+                class="absolute left-0 top-0 aspect-square h-full w-1/2 bg-primary"
+              ></div>
+              <div
+                class="absolute right-0 top-0 aspect-square h-full w-1/2 bg-secondary"
+              ></div>
+            </div>
+            {{! Decorations / End }}
+
+            {{! "V" }}
+            <svg
+              class="relative aspect-[37/36] w-6 fill-white"
+              viewBox="0 0 37 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17 16L15 29.001L27 10.001H21L27.363 0H37L25 36H13L0 0H13L11 16H17Z"
+              ></path>
+            </svg>
+            {{! "V" / End }}
+          </div>
+        </div>
+        {{! Logo / End }}
+
+        {{! Nav Right }}
+        <ul
+          class="hidden w-full gap-x-5 font-heading text-xs font-bold uppercase md:flex lg:gap-x-6 xl:gap-x-10 [&>li>a]:relative [&>li>a]:inline-block [&>li>a]:text-white after:[&>li>a]:absolute after:[&>li>a]:-bottom-1 after:[&>li>a]:left-0 after:[&>li>a]:h-[2px] after:[&>li>a]:w-full after:[&>li>a]:origin-right after:[&>li>a]:scale-x-0 after:[&>li>a]:bg-white after:[&>li>a]:transition-transform hover:after:[&>li>a]:origin-left hover:after:[&>li>a]:scale-x-100"
+        >
+          <li><a href="#section-features">Features</a></li>
+          <li><a
+              href="http://docs.dan-fisher.com/docs/valkivid-html/"
+            >Documentation</a></li>
+        </ul>
+        {{! Nav Left / End}}
+      </nav>
+      {{! Nav / End }}
+
+      {{! Download Button }}
+      <div class="col-span-8 justify-self-end md:col-span-2 md:col-start-11">
+        <a
+          href="{{landing.purchase}}"
+          class="inline-flex bg-primary px-4 py-3 font-heading text-xs font-bold uppercase leading-none text-white shadow-2xl transition-colors hover:bg-white hover:text-gray-900 xl:px-5 xl:py-4"
+        >
+          <span class="xl:hidden">Download</span>
+          <span class="hidden xl:block">Download it now!</span>
+        </a>
+      </div>
+      {{! Download Button / End }}
+
+    </header>
+    {{! Header Nav / End }}
+
+    {{! Hero }}
+    <div
+      class="grid grid-cols-12 gap-x-4 pt-10 md:pt-16 lg:pt-24 xl:pt-[120px]"
+    >
+      <div
+        class="relative col-span-full flex flex-col items-center md:col-span-8 md:col-start-3"
+      >
+        {{! Ballon }}
+        <div
+          class="rellax absolute -left-10 -top-8 hidden aspect-square w-20 place-items-center rounded-full bg-quinary text-center text-white after:absolute after:-right-2 after:bottom-3 after:h-0 after:w-0 after:-rotate-[52deg] after:border-l-[12px] after:border-r-[12px] after:border-t-[20px] after:border-t-quinary after:border-l-transparent after:border-r-transparent sm:grid lg:left-0 lg:-top-12 lg:w-[108px]"
+          data-rellax-speed="1"
+          data-rellax-percentage="1"
+        >
+          <div>
+            <div
+              class="font-heading text-xl font-black uppercase leading-none lg:text-[28px]"
+            >HTML</div>
+            <div
+              class="font-heading text-xs font-semibold uppercase leading-snug lg:text-sm"
+            >version</div>
+          </div>
+        </div>
+        {{! Ballon / End  }}
+
+        {{! Subtitle }}
+        <div
+          class="mb-1 font-heading text-xl font-light uppercase text-white sm:mb-2 lg:mb-5 lg:text-2xl"
+        >Tailwind CSS Template</div>
+        {{! Subtitle / End }}
+
+        {{! Logo }}
+        <h1 class="mb-6 sm:mb-8 lg:mb-12">
+          <svg
+            class="aspect-[201/43] w-[201px] sm:w-[280px] md:w-[360px] xl:w-[452px]"
+            viewBox="0 0 201 43"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {{! "V" }}
+            <path
+              class="fill-white"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M17.1 21.184L15.1 34.185L27.1 15.185H21.1L27.463 5.184H37.1L25.1 41.184H13.1L0.100006 5.184H13.1L11.1 21.184H17.1V21.184Z"
+            >
+            </path>
+            {{! "V" / End }}
+
+            {{! "A" }}
+            <path
+              class="fill-white"
+              d="M39.973 37.641C37.407 34.868 36.124 31.315 36.124 26.981C36.124 22.647 37.406 19.085 39.973 16.294C42.537 13.504 45.666 12.108 49.359 12.108C53.052 12.108 55.885 13.478 57.861 16.216V12.42H66.754V41.436H57.86V37.225C55.711 40.276 52.834 41.801 49.228 41.801C45.622 41.801 42.537 40.414 39.973 37.641ZM55.937 32.232C57.219 30.984 57.861 29.214 57.861 26.927C57.861 24.64 57.219 22.88 55.937 21.649C54.654 20.419 53.181 19.803 51.517 19.803C49.853 19.803 48.379 20.427 47.097 21.675C45.814 22.924 45.173 24.691 45.173 26.98C45.173 29.267 45.814 31.027 47.097 32.257C48.379 33.487 49.853 34.103 51.517 34.103C53.181 34.103 54.653 33.48 55.937 32.232Z"
+            >
+            </path>
+            {{! "A" / End }}
+            {{! "L" }}
+            <path
+              class="fill-white"
+              d="M71.433 41.436V2.956H80.325V41.436H71.433Z"
+            >
+            </path>
+            {{! "L" / End }}
+            {{! "K" }}
+            <path
+              class="fill-white"
+              d="M93.896 41.436H85.004V2.956H93.896V24.536L102.892 12.42H114.852L102.425 27.24L114.853 41.435H103.049L93.896 29.84V41.436Z"
+            >
+            </path>
+            {{! "K" / End }}
+            {{! "I" }}
+            <path
+              class="fill-white"
+              d="M123.952 9.144C122.946 10.15 121.717 10.652 120.261 10.652C118.805 10.652 117.573 10.15 116.569 9.144C115.563 8.139 115.061 6.9 115.061 5.426C115.061 3.953 115.563 2.714 116.569 1.708C117.574 0.703 118.805 0.2 120.261 0.2C121.717 0.2 122.947 0.703 123.952 1.708C124.957 2.714 125.46 3.953 125.46 5.426C125.46 6.899 124.957 8.139 123.952 9.144ZM115.841 41.436V12.419H124.733V41.435H115.841V41.436Z"
+            >
+            </path>
+            {{! "I" / End }}
+            {{! "V" }}
+            <path
+              class="fill-white"
+              d="M125.721 12.419H135.185L141.789 34L148.393 12.419H157.857L147.561 41.435H136.017L125.721 12.419Z"
+            >
+            </path>
+            {{! "V" / End }}
+            {{! "I" }}
+            <path
+              class="fill-white"
+              d="M166.956 9.144C165.95 10.15 164.721 10.652 163.265 10.652C161.809 10.652 160.577 10.15 159.573 9.144C158.567 8.139 158.065 6.9 158.065 5.426C158.065 3.953 158.567 2.714 159.573 1.708C160.578 0.703 161.809 0.2 163.265 0.2C164.721 0.2 165.951 0.703 166.956 1.708C167.961 2.714 168.464 3.953 168.464 5.426C168.464 6.899 167.961 8.139 166.956 9.144ZM158.845 41.436V12.419H167.737V41.435H158.845V41.436Z"
+            >
+            </path>
+            {{! "I" / End }}
+            {{! "D" }}
+            <path
+              class="fill-white"
+              d="M174.132 37.641C171.566 34.868 170.283 31.315 170.283 26.981C170.283 22.647 171.565 19.085 174.132 16.294C176.696 13.504 179.825 12.108 183.518 12.108C187.211 12.108 190.044 13.478 192.02 16.216V2.956H200.913V41.436H192.02V37.225C189.871 40.276 186.994 41.801 183.388 41.801C179.782 41.801 176.696 40.414 174.132 37.641ZM190.096 32.232C191.378 30.984 192.02 29.214 192.02 26.927C192.02 24.64 191.378 22.88 190.096 21.649C188.813 20.419 187.34 19.803 185.676 19.803C184.012 19.803 182.538 20.427 181.256 21.675C179.973 22.924 179.332 24.691 179.332 26.98C179.332 29.267 179.973 31.027 181.256 32.257C182.538 33.487 184.012 34.103 185.676 34.103C187.34 34.103 188.813 33.48 190.096 32.232Z"
+            >
+            </path>
+            {{! "D" / End }}
+
+          </svg>
+        </h1>
+        {{! Logo / End }}
+
+        <div
+          class="mb-8 text-center text-base text-white sm:mb-10 md:mb-12 lg:mb-[74px] lg:text-lg xl:px-20"
+        >
+          We created a template with all you may need if you are a streamer,
+          vlogger, youtuber or any video content creator! With 2 different
+          versions including blog, shop, events, streams, videos pages and much
+          more!
+        </div>
+      </div>
+      <div
+        class="col-span-full grid grid-cols-4 gap-x-4 md:col-span-8 md:col-start-3 lg:col-span-4 lg:col-start-5"
+      >
+        <a
+          class="col-span-2 flex h-[48px] items-center justify-center bg-primary font-heading text-2sm font-bold uppercase text-white transition-colors hover:bg-white hover:text-accent lg:h-[54px]"
+          href="#section-demo-pages"
+        >Demo Pages</a>
+        <a
+          class="col-span-2 flex h-[48px] items-center justify-center bg-secondary font-heading text-2sm font-bold uppercase text-white transition-colors hover:bg-white hover:text-accent lg:h-[54px]"
+          href="#section-features"
+        >Features</a>
+      </div>
+    </div>
+    {{! Hero / End }}
+  </div>
+
+</header>
+{{! Header / End }}

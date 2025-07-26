@@ -1,0 +1,84 @@
+<div
+  class="sub-menu invisible absolute right-full z-20 -mr-8 w-[400px] origin-top-right bg-white dark:bg-gray-800 py-7 text-primary dark:text-white opacity-0 shadow-2xl transition-all"
+>
+  <!-- Products -->
+  <ul class="flex flex-col gap-y-6 text-sm font-bold">
+    {{#each subitems}}
+      <li class="flex gap-3 px-7 text-gray-300">
+
+        <!-- Thumb -->
+        <figure class="shrink-0">
+          <a class="group" href="{{url}}.html">
+            <img
+              class="transition-opacity duration-300 group-hover:opacity-75"
+              src="{{img.xs}}"
+              alt="{{title}}"
+            />
+          </a>
+        </figure>
+        <!-- Thumb / End -->
+
+        <!-- Product Body -->
+        <div class="flex flex-grow flex-col gap-1 leading-tight">
+          <!-- Category -->
+          <span class="text-2xs uppercase">{{category}}</span>
+          <!-- Category / End-->
+
+          <!-- Title -->
+          <h4>
+            <a
+              class="text-primary transition-colors hover:text-accent dark:text-white dark:hover:text-accent"
+              href="{{url}}.html"
+            >
+              {{title}}
+            </a>
+            <span class="text-accent">x {{quantity}}</span>
+          </h4>
+          <!-- Title / End -->
+
+          {{! Rating }}
+          {{> _yt1-rating rating=rating rating-size="sm" rating-class="mb-1" }}
+          {{! Rating / End }}
+
+          <!-- Price -->
+          <div class="text-primary dark:text-white">{{price}}</div>
+          <!-- Price / End -->
+
+        </div>
+        <!-- Product Body / End -->
+
+        <!-- Remove Product -->
+        <button
+          class="group -mt-2 -mr-2 flex h-6 w-6 items-center justify-center self-start"
+        >
+          <svg role="img" class="h-2 w-2 fill-primary group-hover:fill-accent dark:fill-white dark:group-hover:fill-accent">
+            <use xlink:href="{{root}}assets/img/yt1/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <!-- Remove Product / End -->
+
+      </li>
+    {{/each}}
+  </ul>
+  <!-- Products / End -->
+
+  <!-- Total -->
+  <div class="flex p-7 text-sm font-bold">
+    <div>Cart Total</div>
+    <div class="ml-auto"><span class="text-accent">$</span>94.00</div>
+  </div>
+  <!-- Total / End-->
+
+  <!-- Cart Buttons -->
+  <div class="flex w-full gap-6 px-7">
+    <a
+      class="flex-shrink-0 flex-grow basis-0 bg-primary py-4 text-center text-sm font-bold leading-4 text-white transition-colors hover:bg-primary/90"
+      href="_yt1-cart.html"
+    >Go to Cart</a>
+    <a
+      class="flex-shrink-0 flex-grow basis-0 bg-accent py-4 text-center text-sm font-bold leading-4 text-white transition-colors hover:bg-accent/90"
+      href="_yt1-checkout.html"
+    >Checkout</a>
+  </div>
+  <!-- Cart Buttons / End -->
+</div>

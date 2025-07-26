@@ -1,0 +1,63 @@
+{{! Slides #1 }}
+<div class="swiper-slide group">
+  <div class="h-full w-full bg-accent lg:bg-gradient-radial-hero">
+    <div class="container h-full">
+      <div class="grid h-full grid-cols-12 gap-y-10 md:gap-x-6 lg:gap-x-[30px]">
+
+        {{! Content }}
+        <div class="col-span-full lg:col-span-6 lg:col-start-2">
+          <div
+            class="px-6 pt-32 text-center md:pt-36 lg:px-0 lg:pt-44 lg:text-left"
+          >
+            <img
+              class="mt-1 mb-4 hidden opacity-0 transition-opacity duration-500 group-[.vv-slide-played]:opacity-100 group-[.swiper-slide-active:not(.vv-slide-played)]:opacity-100 lg:block"
+              src="{{root}}assets/img/yt1/youtube.svg"
+              alt="YouTube Logo"
+            />
+            <h2
+              class="mb-5 flex flex-col items-center font-bold leading-none lg:items-start"
+            >
+              <span
+                class="relative overflow-hidden after:absolute after:inset-y-0 after:left-0 after:block after:w-[300%] after:-translate-x-full after:bg-white after:transition-transform after:duration-[1500ms] after:ease-linear group-[.swiper-slide-active:not(.vv-slide-played)]:after:translate-x-full group-[.vv-slide-played]:after:opacity-0"
+              >
+                <span
+                  class="text-2xl leading-none tracking-tighter opacity-0 transition-opacity delay-[400ms] duration-500 group-[.vv-slide-played]:opacity-100 group-[.swiper-slide-active:not(.vv-slide-played)]:opacity-100 lg:text-5xl xl:text-6.5xl"
+                >Jan Duarte</span>
+              </span>
+              <span
+                class="relative overflow-hidden after:absolute after:inset-y-0 after:left-0 after:block after:w-[300%] after:-translate-x-full after:bg-white after:transition-transform after:delay-[300ms] after:duration-[1500ms] after:ease-linear group-[.swiper-slide-active:not(.vv-slide-played)]:after:translate-x-full group-[.vv-slide-played]:after:opacity-0"
+              >
+                <span
+                  class="-mt-1 text-4xl leading-none tracking-tightest text-[#f8e978] opacity-0 transition-opacity delay-[600ms] duration-500 group-[.vv-slide-played]:opacity-100 group-[.swiper-slide-active:not(.vv-slide-played)]:opacity-100 lg:-mt-2 lg:text-6.5xl xl:text-8xl"
+                >Cursos de TI</span>
+              </span>
+            </h2>
+            <div
+              class="mb-8 pr-4 text-sm tracking-tighter text-white lg:mb-12 lg:text-lg lg:leading-8 xl:pr-20"
+            >
+              Bringing you the best unboxing videos of the latest technology,
+              games, and toys!
+            </div>
+            {{> _yt1-btn-outline label="Subscribe Now!" variant="outline-white" size="md" }}
+          </div>
+        </div>
+        {{! Content / End }}
+
+        {{! Image }}
+        <div class="col-span-full lg:col-span-5">
+
+          {{! Person }}
+          <div
+            class="hidden scale-90 opacity-0 transition-all duration-700 group-[.swiper-slide-active:not(.vv-slide-played)]:scale-100 group-[.vv-slide-played]:scale-100 group-[.vv-slide-played]:opacity-100 group-[.swiper-slide-active:not(.vv-slide-played)]:opacity-100 lg:absolute lg:bottom-6 lg:-ml-4 lg:block"
+          >
+            <img src="{{root}}assets/img/yt1/samples/hero-person.png" alt="" />
+          </div>
+          {{! Person / End }}
+
+        </div>
+        {{! Image / End }}
+      </div>
+    </div>
+  </div>
+</div>
+{{! Slides #1 / End }}

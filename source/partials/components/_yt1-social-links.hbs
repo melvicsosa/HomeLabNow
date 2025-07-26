@@ -1,0 +1,15 @@
+<ul class="vv-social-list-color flex flex-wrap gap-3">
+  {{#each data}}
+    <li>
+      <a
+        class="inline-flex h-10 w-10 items-center justify-center bg-primary text-white transition-all hover:scale-110 hover:opacity-80"
+        href="{{url}}"
+        title="{{label}}"
+      >
+        <svg class="h-4 w-4" fill="currentColor">
+          <use xlink:href="{{root}}assets/img/social-icons.svg#{{icon}}"></use>
+        </svg>
+      </a>
+    </li>
+  {{/each}}
+</ul>

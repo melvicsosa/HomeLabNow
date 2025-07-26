@@ -1,0 +1,40 @@
+{{! Sorting & Layout }}
+<div
+  class="relative z-10 flex justify-between gap-x-4 pr-6 pb-5 md:pb-0 md:gap-x-6 lg:gap-x-10 lg:pr-[60px]"
+>
+  {{#if sorting}}
+    {{! Sorting }}
+    <ul class="flex flex-col md:flex-row md:gap-x-4 lg:gap-x-8 xl:gap-x-10">
+      {{#each sorting}}
+        <li class="flex">
+          <a
+            class="flex items-center py-2 font-bold text-sm lg:text-base lg:text-primary dark:lg:text-white {{#if is-active}} text-accent lg:text-accent dark:text-accent dark:lg:text-accent {{else}} text-primary transition-colors hover:text-accent dark:text-white dark:hover:text-accent{{/if}}"
+            href="#"
+          >
+            {{label}}
+          </a>
+        </li>
+      {{/each}}
+    </ul>
+    {{! Sorting / End }}
+  {{/if}}
+
+  {{! Layout }}
+  <ul class="flex gap-4 lg:gap-6 pt-2 md:self-center md:pt-0">
+    {{#each filter-layout}}
+    <li>
+      <a class="group" href="{{slug}}.html">
+        <svg
+          role="img"
+          class="h-6 w-6 {{#ifpage slug}} fill-accent dark:fill-accent {{/ifpage}} {{#unlesspage slug}} fill-primary group-hover:fill-accent transition-colors dark:fill-white dark:group-hover:fill-accent {{/unlesspage}}"
+        >
+          <use xlink:href="{{root}}assets/img/yt1/sprite.svg#{{icon}}"></use>
+        </svg>
+      </a>
+    </li>
+    {{/each}}
+  </ul>
+  {{! Layout / End }}
+
+</div>
+{{! Sorting & Layout / End }}

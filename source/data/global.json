@@ -1,0 +1,14 @@
+{
+  "site-name": "HomeLabNow",
+  "site-tagline": "Tutoriales de Infraestructura TI",
+  "description": "HomeLabNow ofrece tutoriales y cursos prácticos de infraestructura TI: Windows Server, Active Directory, Azure, virtualización y más. Aprende a construir y gestionar tu Home Lab con expertos.",
+  "author": "Jan Carlos Duarte",
+  "keywords": "infraestructura TI, Windows Server, Active Directory, Azure, virtualización, Home Lab, tutoriales TI, cursos TI",
+  "gmapkey": "",
+  "themes": {
+    "yt1": {
+      "site-title": "HomeLabNow - Tutoriales de Infraestructura TI",
+      "fonts": "Poppins:wght@400;600;700"
+    }
+  }
+}

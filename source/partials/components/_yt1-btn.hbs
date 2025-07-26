@@ -1,0 +1,28 @@
+<a
+  href="{{#if url}}{{url}}{{else}}#{{/if}}"
+  class="inline-flex text-center text-sm font-bold leading-none text-white transition-colors lg:text-base lg:text-white
+
+  {{! Size }}
+  {{#ifequal size "md"}}
+  py-5 px-4 lg:py-[18px] lg:px-8
+  {{else}}
+  py-4 px-5 lg:py-5 lg:px-10
+  {{/ifequal}}
+  {{! Size / End }}
+
+  {{! Accent }}
+  {{#ifequal variant "accent"}}
+  bg-accent hover:bg-accent/90
+  {{/ifequal}}
+  {{! Accent / End }}
+
+  {{! Primary }}
+  {{#ifequal variant "primary"}}
+  bg-primary hover:bg-primary/90
+  {{/ifequal}}
+  {{! Primary / End }}
+
+    {{class}}"
+>
+  {{label}}
+</a>

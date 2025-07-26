@@ -1,0 +1,15 @@
+<ul
+  class="sub-menu invisible absolute right-full z-20 -mr-9 flex w-52 origin-top-right flex-col bg-white dark:bg-gray-800 py-5 text-sm font-bold opacity-0 shadow-2xl transition-all
+    {{class}}"
+>
+  {{#each subitems}}
+    <li class="px-7">
+      <a
+        class="flex flex-row-reverse items-center justify-between py-2 {{#ifpage url}} text-accent {{/ifpage}} {{#unlesspage url}} text-primary dark:text-white transition-colors hover:text-accent dark:hover:text-accent {{/unlesspage}}"
+        href="{{url}}.html"
+      >
+        {{title}}
+      </a>
+    </li>
+  {{/each}}
+</ul>

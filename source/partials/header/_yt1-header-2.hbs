@@ -1,0 +1,19 @@
+<div class="header-wrapper relative bg-[url('../../../assets/img/yt1/samples/header-bg.jpg')] bg-cover bg-top bg-no-repeat text-white {{header-wrapper-class}}">
+  {{! Site Header }}
+  <header id="site-header" class="relative z-20 text-white">
+    <div class="container">
+      {{> _yt1-header-nav }}
+    </div>
+  </header>
+  {{! Site Header / End }}
+
+  {{! Page Heading }}
+  {{#if breadcrumbs}}
+    {{> _yt1-page-heading }}
+  {{/if}}
+  {{! Page Heading / End }}
+
+  {{! Header Overlay }}
+  <div class="bg-gray-900/80 absolute inset-0 z-0"></div>
+  {{! Header Overlay / End }}
+</div>

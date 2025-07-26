@@ -1,0 +1,78 @@
+{{! Subsection: Latest Videos }}
+<section class="py-8 md:py-14 lg:py-16 xl:py-[75px]">
+  <div class="container">
+
+    {{> _yt1-subsection-heading
+      title="Latest Videos"
+      subtitle="UnBox Vlogs"
+      isSliderNav="true"
+      sliderNavPrev="js-vv-latest-videos-swiper-btn-prev"
+      sliderNavNext="js-vv-latest-videos-swiper-btn-next"
+    }}
+
+    {{! Latest Videos Slider }}
+    <div
+      class="swiper js-vv-latest-videos-swiper md:w-[1106px] lg:w-[1278px] xl:w-[1970px]"
+    >
+
+      {{! Slider required wrapper }}
+      <div class="swiper-wrapper">
+        {{! Slides }}
+        {{#each (limit yt1.videos.feed 8)}}
+          <div class="swiper-slide">
+            <div>
+              <figure class="mb-6">
+                <a
+                  class="glightbox group relative block h-full overflow-hidden bg-gray-900"
+                  href="{{url}}"
+                >
+                  <img
+                    class="aspect-video w-full object-cover transition-all duration-300 group-hover:scale-110 group-hover:opacity-75"
+                    src="{{root}}{{thumb.lg}}"
+                    alt="{{title}}"
+                  />
+
+                  {{! Play Button }}
+                  <span
+                    class="absolute top-1/2 left-1/2 flex aspect-square w-[60px] -translate-x-2/4 -translate-y-2/4 items-center justify-center rounded-full bg-accent"
+                  >
+                    <svg role="img" class="ml-[3px] h-5 w-4 fill-white">
+                      <use
+                        xlink:href="{{root}}assets/img/yt1/sprite.svg#play"
+                      ></use>
+                    </svg>
+                  </span>
+                  {{! Play Button / End }}
+                </a>
+              </figure>
+              <div>
+                <h3
+                  class="mb-3 font-bold leading-tight text-primary dark:text-white lg:text-lg lg:leading-6"
+                >{{title}}</h3>
+                <ul
+                  class="flex text-sm leading-tight tracking-tighter [&>li:not(:last-child)]:after:content-['-'] [&>li]:after:mx-1"
+                >
+                  {{#with meta}}
+                    <li>
+                      {{views}}
+                      views
+                    </li>
+                    <li>
+                      {{date}}
+                    </li>
+                  {{/with}}
+                </ul>
+              </div>
+            </div>
+          </div>
+        {{/each}}
+        {{! Slides / End }}
+      </div>
+      {{! Slider required wrapper / End }}
+
+    </div>
+    {{! Latest Videos Slider / End }}
+
+  </div>
+</section>
+{{! Subsection: Latest Videos / End }}

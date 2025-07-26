@@ -1,0 +1,44 @@
+{{! Video Feed }}
+<div class="grid grid-cols-12 gap-y-14 sm:gap-x-[30px]">
+  {{#each (limit videos videos-limit)}}
+    <div class="{{#ifequal ../videos-layout "grid-3"}} col-span-full sm:col-span-6 lg:col-span-4 {{/ifequal}} {{#ifequal ../videos-layout "grid-4"}} col-span-full sm:col-span-6 lg:col-span-3 {{/ifequal}}">
+      <figure class="mb-6">
+        <a
+          class="group relative block h-full overflow-hidden bg-gray-900 glightbox"
+          href="{{url}}"
+        >
+          <img
+            class="aspect-video w-full object-cover transition-all duration-300 group-hover:scale-110 group-hover:opacity-75"
+            src="{{root}} {{#ifequal ../thumb-size "lg" }} {{thumb.lg}} {{else}} {{thumb.md}} {{/ifequal}}"
+            alt="{{title}}"
+          />
+
+          <span
+            class="absolute top-1/2 left-1/2 flex aspect-square -translate-x-2/4 -translate-y-2/4 items-center justify-center rounded-full bg-accent {{#ifequal ../thumb-size "lg" }} w-[60px] {{else}} w-10 {{/ifequal}}"
+          >
+            <svg role="img" class="fill-white {{#ifequal ../thumb-size "lg" }} ml-[3px] h-5 w-4 {{else}} ml-[2px] h-4 w-3 {{/ifequal}}">
+              <use xlink:href="{{root}}assets/img/yt1/sprite.svg#play"></use>
+            </svg>
+          </span>
+        </a>
+      </figure>
+      <div>
+        <h3 class="mb-3 font-bold leading-tight text-primary dark:text-white {{#ifequal ../videos-layout "grid-3"}}lg:text-lg lg:leading-6{{/ifequal}}">{{title}}</h3>
+        <ul
+          class="flex leading-tight tracking-tighter [&>li:not(:last-child)]:after:content-['-'] [&>li]:after:mx-1 {{#ifequal ../videos-layout "grid-3"}}text-sm{{else}}text-2sm{{/ifequal}}"
+        >
+          {{#with meta}}
+            <li>
+              {{views}}
+              views
+            </li>
+            <li>
+              {{date}}
+            </li>
+          {{/with}}
+        </ul>
+      </div>
+    </div>
+  {{/each}}
+</div>
+{{! Video Feed / End }}

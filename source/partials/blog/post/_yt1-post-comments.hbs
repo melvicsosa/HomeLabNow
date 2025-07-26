@@ -1,0 +1,13 @@
+<div class="{{class}}">
+  <h2
+    class="mb-10 text-3xl font-bold leading-none tracking-tighter text-primary dark:text-white md:mb-20 md:text-5xl lg:mb-28"
+  >
+    <span class="text-accent">3</span>
+    Comments
+  </h2>
+  <ol class="text-lg leading-8 tracking-tight">
+    {{#each data}}
+      {{> _yt1-post-comment currentComment=data}}
+    {{/each}}
+  </ol>
+</div>

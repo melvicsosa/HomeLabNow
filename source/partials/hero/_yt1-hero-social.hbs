@@ -1,0 +1,23 @@
+{{! Social Links }}
+<ul
+  class="absolute top-32 left-3 z-20 flex flex-col flex-wrap gap-3 lg:top-1/2 lg:left-10 lg:-translate-y-[calc(50%+70px)] lg:-rotate-180 lg:flex-row lg:gap-9 lg:[writing-mode:vertical-rl]"
+>
+  {{#each yt1.social}}
+    <li>
+      <a
+        class="inline-flex items-center gap-[9px] text-white transition-opacity hover:opacity-70"
+        href="{{url}}"
+        title="{{label}}"
+      >
+        <svg class="h-3 w-3 lg:rotate-90" fill="currentColor">
+          <use xlink:href="{{root}}assets/img/social-icons.svg#{{icon}}"></use>
+        </svg>
+
+        <span class="hidden text-2xs font-bold uppercase lg:inline-block">
+          {{label}}
+        </span>
+      </a>
+    </li>
+  {{/each}}
+</ul>
+{{! Social Links / End }}

@@ -1,0 +1,27 @@
+<!-- Scripts
+================================================== -->
+<!-- Vendors JS -->
+<script src="{{../root}}assets/vendors/common/glightbox/js/glightbox.min.js"></script>
+<script src="{{../root}}assets/vendors/common/swiper/js/swiper-bundle.min.js"></script>
+
+<!-- Template JS -->
+<script src="{{../root}}assets/js/common.js"></script>
+<script src="{{../root}}assets/js/yt1/init.js"></script>
+
+{{#if gmap}}
+<script async src="https://maps.googleapis.com/maps/api/js?key={{global.gmapkey}}&callback=initMap"></script>
+<script>
+  let map = document.getElementById("vv-venue-map");
+  let gmap;
+
+  function initMap() {
+    gmap = new google.maps.Map(map, {
+      center: { lat: 40.767956464620504, lng: -73.98931002607559 },
+      zoom: 15,
+      disableDefaultUI: true,
+    });
+  }
+
+  window.initMap = initMap;
+</script>
+{{/if}}

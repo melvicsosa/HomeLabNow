@@ -1,0 +1,43 @@
+{{! Posts Feed - Grid }}
+<div class="grid grid-cols-12 gap-y-7 sm:gap-[30px]">
+  {{#each posts}}
+    <div class="col-span-full sm:col-span-6 lg:col-span-4">
+      <figure
+        class="group overflow-hidden bg-gray-900"
+      >
+        <a href="{{url}}">
+          <img
+            class="aspect-[37/24] h-full w-full max-w-full object-cover duration-300 group-hover:scale-110 group-hover:opacity-75"
+            src="{{img.md}}"
+            alt="{{title}}"
+          />
+        </a>
+      </figure>
+      <div
+        class="relative -mt-20 mr-8 lg:mr-10"
+      >
+        <div
+          class="inline-flex bg-accent px-2 py-[6px] text-xs font-bold uppercase leading-none text-white"
+        >
+          {{#with (lookup ../yt1.blog.categories meta.cat_id)}}
+            {{label}}
+          {{/with}}
+        </div>
+        <div class="bg-white dark:bg-gray-800 p-6">
+          <h2 class="mb-4 text-xl font-bold leading-6 lg:tracking-tighter">
+            <a
+              href="{{url}}"
+              class="text-primary transition-colors hover:text-accent dark:text-white dark:hover:text-accent"
+            >
+              {{title}}
+            </a>
+          </h2>
+          <div
+            class="text-sm"
+          >{{meta.date}}</div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>
+{{! Posts Feed - Grid / End }}

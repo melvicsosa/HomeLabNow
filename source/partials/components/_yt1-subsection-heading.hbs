@@ -1,0 +1,43 @@
+{{! Subsection Heading }}
+<div
+  class="mb-8 flex flex-wrap items-end justify-between gap-y-6 sm:mb-12 sm:flex-row md:mb-16 lg:mb-20 xl:mb-24 xl:gap-y-12"
+>
+  <div
+    class="flex flex-col-reverse gap-y-2 sm:gap-y-3 md:gap-y-4 lg:gap-y-5 xl:gap-y-6"
+  >
+    <h3
+      class="leadin-none text-2xl font-bold tracking-tight text-primary dark:text-white sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl xl:leading-none"
+    >{{title}}</h3>
+    <div
+      class="text-sm uppercase leading-tighter md:text-base"
+    >{{subtitle}}</div>
+  </div>
+
+  {{#if isSliderNav}}
+    {{! Prev/Next }}
+    <div class="flex">
+      <div
+        class="{{sliderNavPrev}}
+          flex h-[36px] w-[30px] items-center justify-center bg-white text-primary hover:cursor-pointer hover:text-accent dark:bg-gray-900 dark:text-white dark:hover:text-accent md:h-[60px] md:w-[50px]"
+      >
+        <svg class="h-2 w-2" fill="currentColor">
+          <use
+            xlink:href="{{root}}assets/img/yt1/sprite.svg#chevron-left"
+          ></use>
+        </svg>
+      </div>
+      <div
+        class="{{sliderNavNext}}
+          flex h-[36px] w-[30px] items-center justify-center bg-white text-primary hover:cursor-pointer hover:text-accent dark:bg-gray-900 dark:text-white dark:hover:text-accent md:h-[60px] md:w-[50px]"
+      >
+        <svg class="h-2 w-2" fill="currentColor">
+          <use
+            xlink:href="{{root}}assets/img/yt1/sprite.svg#chevron-right"
+          ></use>
+        </svg>
+      </div>
+    </div>
+    {{! Prev/Next / End }}
+  {{/if}}
+</div>
+{{! Subsection Heading / End }}

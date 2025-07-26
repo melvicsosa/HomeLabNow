@@ -1,0 +1,38 @@
+{{! Tweet }}
+<div class="bg-gray-50 p-6 dark:bg-gray-700 md:p-7 lg:p-8">
+  {{! Header }}
+  <div class="mb-7 flex items-center gap-x-3">
+    <figure class="flex-shrink-0 overflow-hidden rounded-full">
+      <img
+        class="aspect-square w-10 object-cover"
+        src="{{root}}{{avatar}}"
+        alt="{{name}}"
+      />
+    </figure>
+    <div class="flex-1">
+      <h5
+        class="text-base font-bold leading-none tracking-tighter text-gray-900 dark:text-white"
+      ><a href="{{url}}">{{name}}</a></h5>
+      <div
+        class="text-xs font-medium leading-tight tracking-tighter text-primary transition-colors hover:text-gray-900 dark:hover:text-white"
+      ><a href="{{url}}">{{nickname}}</a></div>
+    </div>
+  </div>
+  {{! Header / End }}
+
+  {{! Content }}
+  <div
+    class="mb-6 text-sm font-medium leading-[22px] text-gray-900 dark:text-white [&_a]:font-bold [&_a]:text-[#01deff] hover:[&_a]:text-gray-900 dark:hover:[&_a]:text-white [&_img]:my-4 [&_img]:block"
+  >
+    {{{@partial-block}}}
+  </div>
+  {{! Content / End }}
+
+  {{! Time }}
+  <div class="text-xs tracking-tighter">
+    <time datetime="2023-01-01">{{time}}</time>
+  </div>
+  {{! Time / End }}
+
+</div>
+{{! Tweet / End }}

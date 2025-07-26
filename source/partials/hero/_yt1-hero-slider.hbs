@@ -1,0 +1,28 @@
+{{! Hero Slider Wrapper }}
+<div class="h-[500px] md:h-[640px] lg:h-[880px] bg-primary relative z-10">
+
+  {{! Hero Slider }}
+  <div class="swiper js-vv-hero-swiper h-full w-full">
+
+    {{! Slider required wrapper }}
+    <div class="swiper-wrapper vv-hero-swiper-wrapper">
+
+      {{> _yt1-hero-slide-1 }}
+
+    </div>
+    {{! Slider required wrapper / End }}
+
+  </div>
+  {{! Hero Slider / End }}
+
+  {{! Pagination }}
+  <div
+    class="vv-hero-swiper-pagination js-vv-hero-swiper-pagination vv-pagination-circle-bullets absolute right-4 lg:right-10 top-1/2 !left-auto -translate-y-[calc(50%+40px)] !bottom-auto z-20 flex !w-4 lg:-translate-y-[calc(50%+70px)] flex-col gap-[10px]"
+  ></div>
+  {{! Pagination / End }}
+
+  {{! Social Links }}
+  {{> _yt1-hero-social }}
+  {{! Social Links / End }}
+</div>
+{{! Hero Slider Wrapper / End }}

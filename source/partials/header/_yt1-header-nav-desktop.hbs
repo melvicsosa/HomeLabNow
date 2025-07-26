@@ -1,0 +1,24 @@
+<!-- Navigation (Desktop) -->
+<ul class="hidden gap-x-7 xl:gap-x-10 text-sm font-bold lg:flex">
+  {{#each items}}
+    <li
+      class="{{#if subitems}}relative [&>.sub-menu]:hover:visible [&>.sub-menu]:hover:animate-popper-pop-in [&>.sub-menu]:hover:opacity-100{{/if}}"
+    >
+      <a
+        class="relative inline-flex items-center gap-x-2 leading-10 after:absolute after:bottom-[7px] after:left-0 after:h-[2px] after:bg-white after:transition-transform after:w-full {{#ifpage url}} after:origin-left after:scale-x-100 {{/ifpage}} {{#unlesspage url}} after:origin-right hover:after:origin-left after:scale-x-0 hover:after:scale-x-100 {{/unlesspage}}"
+        href="{{url}}.html"
+      >
+        {{title}}
+        {{#if subitems}}
+          <svg role="img" class="h-2 w-2 rotate-90 fill-white">
+            <use xlink:href="{{root}}assets/img/yt1/sprite.svg#arrow-right"></use>
+          </svg>
+        {{/if}}
+      </a>
+      {{#if subitems}}
+        {{> _yt1-header-dropdown subitems=subitems}}
+      {{/if}}
+    </li>
+  {{/each}}
+</ul>
+<!-- Navigation (Desktop) / End -->

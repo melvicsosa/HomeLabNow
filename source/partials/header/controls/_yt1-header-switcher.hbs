@@ -1,0 +1,25 @@
+{{! Dark/Light Switcher }}
+<div class="flex items-center py-4 px-1 sm:px-2">
+  <label
+    for="theme-toggle"
+    class="relative inline-flex cursor-pointer items-center"
+  >
+    <input type="checkbox" value="" id="theme-toggle" class="peer sr-only" />
+    <span
+      class="relative z-10 block h-6 w-11 rounded-full border-2 border-white after:absolute after:top-0.5 after:left-0.5 after:h-4 after:w-4 after:rounded-full after:bg-white after:transition-transform peer-checked:after:translate-x-[20px]"
+    ></span>
+    <svg
+      role="img"
+      class="pointer-events-none absolute left-[5px] top-1 h-4 w-4 stroke-white"
+    >
+      <use xlink:href="{{root}}assets/img/yt1/sprite.svg#sun"></use>
+    </svg>
+    <svg
+      role="img"
+      class="pointer-events-none absolute right-[5px] top-1 h-4 w-4 stroke-white"
+    >
+      <use xlink:href="{{root}}assets/img/yt1/sprite.svg#moon"></use>
+    </svg>
+  </label>
+</div>
+{{! Dark/Light Switcher / End }}

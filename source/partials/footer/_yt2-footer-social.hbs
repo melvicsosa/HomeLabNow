@@ -1,0 +1,15 @@
+<ul class="{{class}}">
+  {{#each items}}
+    <li>
+      <a
+        class="text-primary transition-colors hover:text-accent dark:text-white dark:hover:text-accent"
+        href="{{url}}"
+        title="{{label}}"
+      >
+        <svg class="h-4 w-4" fill="currentColor">
+          <use xlink:href="{{root}}assets/img/social-icons.svg#{{icon}}"></use>
+        </svg>
+      </a>
+    </li>
+  {{/each}}
+</ul>

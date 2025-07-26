@@ -1,0 +1,75 @@
+{{! Heading }}
+<div class="mb-10 grid grid-cols-12 gap-y-5 md:gap-x-[30px] lg:mb-40">
+  <h2
+    class="col-span-full text-2xl font-bold leading-none tracking-tighter text-primary dark:text-white md:col-span-5 lg:text-4xl xl:text-5xl"
+  >
+    We’re Trusted by<br />
+    the Best Companies
+  </h2>
+  <div
+    class="col-span-full place-self-end md:col-span-7 md:col-start-7 md:col-end-13 lg:pl-[70px] lg:text-lg"
+  >
+    <p>
+      This prestigious companies trusted me and my team to help them by
+      sponsoring their products and services.
+    </p>
+  </div>
+</div>
+{{! Heading / End }}
+
+{{! Partners }}
+<div class="flex flex-col gap-y-5 lg:gap-y-10">
+  {{#each yt1.partners}}
+    <div
+      class="group relative grid grid-cols-12 gap-y-4 px-7 py-7 shadow-gray-900 transition-all hover:bg-white hover:shadow-3xl dark:hover:bg-gray-800 md:px-0 lg:py-14"
+    >
+      <figure
+        class="col-span-full flex items-center justify-center p-4 md:col-span-4 md:p-0"
+      >
+        <img
+          class="block h-auto max-w-full opacity-50 grayscale transition-all group-hover:opacity-100 group-hover:grayscale-0 dark:hidden"
+          src="{{img.md-dark}}"
+          alt="{{title}}"
+        />
+        <img
+          class="hidden h-auto max-w-full opacity-50 grayscale transition-all group-hover:opacity-100 group-hover:grayscale-0 dark:block"
+          src="{{img.md-light}}"
+          alt="{{title}}"
+        />
+      </figure>
+      <div class="col-span-full leading-relaxed md:col-span-7">
+        <div class="mb-6">{{description}}</div>
+        <a
+          class="text-sm font-bold text-primary transition-colors after:absolute after:inset-0 hover:text-accent dark:text-white dark:hover:text-accent"
+          href="{{link.url}}"
+          target="_blank"
+        >{{link.label}}</a>
+      </div>
+    </div>
+  {{/each}}
+</div>
+{{! Partners / End }}
+
+<div class="h-24 md:h-32 lg:h-52"></div>
+
+{{! CTA }}
+<div class="grid grid-cols-12 text-center">
+  <div
+    class="col-span-full sm:col-start-3 sm:col-end-11 md:col-start-2 md:col-end-12 lg:col-start-3 lg:col-end-11"
+  >
+    <div
+      class="mb-2 text-xl leading-normal text-primary dark:text-white md:text-2xl"
+    >Become one!</div>
+    <h3
+      class="text-2xl font-bold leading-tight tracking-tighter text-primary dark:text-white md:text-4xl md:leading-none lg:text-[42px] xl:text-5xl"
+    >
+      Interested in Working with Us?<br />
+      <a
+        class="text-accent transition-opacity hover:opacity-80"
+        href="contact.html"
+      >Let’s Talk</a>
+      and Join us as Our Newest Partner!
+    </h3>
+  </div>
+</div>
+{{! CTA / End }}

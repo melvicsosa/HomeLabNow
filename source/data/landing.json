@@ -1,0 +1,109 @@
+{
+  "purchase": "https://1.envato.market/rnkXm5",
+  "technologies": [
+    {
+      "title": "Tailwind CSS",
+      "img": "assets/img/landing/logo-tailwindcss.png"
+    },
+    {
+      "title": "Handlebars",
+      "img": "assets/img/landing/logo-handlebars.png"
+    },
+    {
+      "title": "HTML5",
+      "img": "assets/img/landing/logo-html5.png"
+    },
+    {
+      "title": "npm",
+      "img": "assets/img/landing/logo-npm.png"
+    },
+    {
+      "title": "Gulp",
+      "img": "assets/img/landing/logo-gulp.png"
+    }
+  ],
+  "previews": [
+    {
+      "title": "Youtuber & Vloggers",
+      "subtitle": "Version 01",
+      "preview": "assets/img/landing/preview-yt1.jpg",
+      "color": "primary",
+      "desc": "This version was created having in mind everything you may need if you are a Youtuber or Vlogger. From featured videos and video spotlights (like the one in the footer and the header videos slider), to a subscribers live count and a super complete shop to sell merchandise.",
+      "link": "/index.html"
+    },
+    {
+      "title": "Youtuber & Vloggers",
+      "subtitle": "Version 02",
+      "preview": "assets/img/landing/preview-yt2.jpg",
+      "color": "tertiary",
+      "desc": "This version was created for Youtubers or Vloggers that wanna have a simpler website to showcase their videos and/or sell their merchandise. With a bigger slider on the homepage, an affiliates page to monetize the site’s traffic and many more features!",
+      "link": "/_yt2-index.html"
+    },
+    {
+      "title": "Gamer & Streamer",
+      "subtitle": "Version 01",
+      "preview": "assets/img/landing/preview-str1.jpg",
+      "color": "secondary",
+      "desc": "This version was created having in mind everything you may need if you are a Gamer or Streamer. From upcoming stream countdowns, top games spotlight and livestream boxes, to a stream clips feed and a super complete shop.",
+      "link": "/_str1-index.html"
+    },
+    {
+      "title": "Gamer & Streamer",
+      "subtitle": "Version 02",
+      "preview": "assets/img/landing/preview-str2.jpg",
+      "color": "quaternary",
+      "desc": "This version was created for Gamers or Streamers that wanna have a simpler website to showcase their stream and/or sell their merchandise. With a subscribe button on top, an affiliates page and gear showcase to monetize the site’s traffic and many more features!",
+      "link": "/_str2-index.html"
+    }
+  ],
+  "features": [
+    {
+      "icon": {
+        "color": "primary",
+        "symbol": "tailwindcss"
+      },
+      "title": "Tailwind CSS",
+      "desc": "The template is made on top of <a href=\"https://tailwindcss.com\" target=\"_blank\" rel=\"noopener noreferrer\">Tailwind CSS</a> 3.3.x a utility-first CSS framework that can be composed to build any design, directly in your markup."
+    },
+    {
+      "icon": {
+        "color": "secondary",
+        "symbol": "duplicate"
+      },
+      "title": "4 Main Demos",
+      "desc": "We created 4 demos, 2 for Vloggers and 2 for Streamers so you can easily choose the one that you like the most or fits you better!"
+    },
+    {
+      "icon": {
+        "color": "primary",
+        "symbol": "moon"
+      },
+      "title": "Light and Dark",
+      "desc": "Each version comes in two colors light and dark. Select which version is the best for you or leave the select option for your users!"
+    },
+    {
+      "icon": {
+        "color": "secondary",
+        "symbol": "code"
+      },
+      "title": "Developers Ready",
+      "desc": "We created the template based on concepts of templates, pages, and partials - powered by <a href=\"https://handlebarsjs.com\" target=\"_blank\" rel=\"noopener noreferrer\">Handlebars</a> templating language."
+    },
+    {
+      "icon": {
+        "color": "primary",
+        "symbol": "document-text"
+      },
+      "title": "Well Documented",
+      "desc": "We created an online documentation and quick walkthroughs so you can easily do everything! From initial setup to customizing and more!"
+    },
+    {
+      "icon": {
+        "color": "secondary",
+        "symbol": "lifebuoy"
+      },
+      "title": "Support & Updates",
+      "desc": "With the purchase you get 6 or 12-month support and lifetime updates! Once purchased you get all future updates!"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<article
+  class="grid-col-4 grid gap-x-4 md:grid-cols-12 md:gap-x-6 lg:gap-x-[30px] isolate relative"
+>
+  {{! Decorative Layer }}
+  <div class="-mx-16 md:mx-0 col-span-full md:col-start-2 md:col-end-12 bg-white dark:bg-gray-900 h-[210px] -z-10 absolute inset-x-0"></div>
+  {{! Decorative Layer / End }}
+
+  {{! Header }}
+  {{> _yt1-post-header-1 }}
+  {{! Header / End }}
+
+  {{! Post Inner }}
+  <div class="col-span-full md:col-start-3 md:col-end-11 grid-col-4 grid gap-x-4 md:grid-cols-8 md:gap-x6 lg:gap-x-[30px]">
+    {{! Share }}
+    <div class="mb-10 col-span-1 mt-3">
+      {{> _yt1-post-share-1 }}
+    </div>
+    {{! Share / End }}
+
+    {{! Content }}
+    <div class="col-span-full md:col-start-2 md:col-end-9">
+      {{> _yt1-post-content-1 }}
+    </div>
+    {{! Content / End }}
+  </div>
+  {{! Post Inner / End }}
+
+  {{! Author}}
+  {{> _yt1-post-author class="col-span-full md:col-start-2 mb-20 md:col-end-12 lg:px-[100px] md:px-[66px] md:mb-28 lg:mb-40" data=yt1.blog.post.author}}
+  {{! Author / End }}
+
+  {{! Comments }}
+  {{> _yt1-post-comments class="col-span-full md:col-start-3 md:col-end-11" data=yt1.blog.post.comments}}
+  {{! Comments / End }}
+
+  {{! Form }}
+  {{> _yt1-post-form class="col-span-full md:col-start-3 md:col-end-11 mt-8 lg:mt-16" }}
+  {{! Form / End }}
+</article>

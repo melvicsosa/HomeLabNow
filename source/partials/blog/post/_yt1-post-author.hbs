@@ -1,0 +1,49 @@
+<div
+  class="relative flex gap-x-6 bg-gray-100 py-8 leading-8 after:absolute after:inset-y-0 after:-left-1/2 after:w-1/2 after:bg-gray-100 dark:bg-gray-800 dark:after:bg-gray-800 md:py-[70px] md:text-lg lg:gap-x-9
+    {{class}}"
+>
+  {{! Post Author - Avatar }}
+  <figure class="shrink-0">
+    <img src="{{root}}{{data.avatar}}" alt="Author Avatar" />
+  </figure>
+  {{! Post Author - Avatar / End }}
+
+  {{! Post Author - Body }}
+  <div class="flex-grow">
+
+    {{! Post Author - Header }}
+    <div class="mb-6 flex flex-wrap justify-between gap-4">
+      <div>
+        <h5
+          class="mb-2 text-1.5xl font-bold leading-none text-primary dark:text-white"
+        >{{data.name}}</h5>
+        <div class="text-base">{{data.info}}</div>
+      </div>
+      <ul class="flex flex-wrap gap-4 md:gap-8">
+        {{#each data.social}}
+          <li>
+            <a
+              class="white text-primary transition-colors hover:text-accent dark:text-white dark:hover:text-accent"
+              href="{{url}}"
+              title="{{label}}"
+            >
+              <svg class="h-4 w-4" fill="currentColor">
+                <use
+                  xlink:href="{{root}}assets/img/social-icons.svg#{{icon}}"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    {{! Post Author - Header / End }}
+
+    {{! Post Author - Details }}
+    <div>
+      {{data.details}}
+    </div>
+    {{! Post Author - Details / End }}
+  </div>
+  {{! Post Author - Body / End }}
+</div>

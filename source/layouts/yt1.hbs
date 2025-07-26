@@ -1,0 +1,31 @@
+{{> _yt1-head }}
+
+<body class="antialiased tracking-tight font-base text-gray-500 text-base h-full bg-white dark:bg-gray-900 overflow-x-hidden">
+
+  <div id="site-wrapper" class="flex flex-col h-full js-site-wrapper">
+
+    {{#unless header-layout}}
+      {{> _yt1-header-1 }}
+    {{/unless}}
+
+    {{#ifequal header-layout "header-2"}}
+      {{> _yt1-header-2 }}
+    {{/ifequal}}
+
+    {{#ifequal header-layout "header-3"}}
+      {{> _yt1-header-3 }}
+    {{/ifequal}}
+
+    {{> _yt1-header-mobile-menu }}
+
+    <main id="main-content" class="grow lg:pt-0">
+      {{> body}}
+    </main>
+
+    {{> _yt1-video-spotlight }}
+    {{> _yt1-footer }}
+  </div>
+
+{{> _yt1-scripts }}
+</body>
+</html>

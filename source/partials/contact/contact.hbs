@@ -1,0 +1,61 @@
+{{! Contact Form }}
+<div
+  class="relative -mt-20 mb-14 grid grid-cols-12 gap-x-5 gap-y-10 md:gap-x-[30px] bg-white dark:bg-gray-800 shadow-3xl lg:-mt-[200px] lg:mb-40 py-10 md:py-20 lg:py-22 xl:py-24 isolate"
+>
+
+  {{! Contact Description }}
+  <div class="col-start-2 col-end-12 md:col-end-6 md:pb-16">
+    <h2 class="font-bold text-primary dark:text-white text-2xl md:text-3xl md:leading-none mb-4 lg:text-4xl xl:text-5xl leading-none tracking-tight xl:tracking-tight xl:mb-10">
+      Something<br>
+      in your <span class="text-accent">mind</span>?<br>
+      Let’s talk!
+    </h2>
+    <div class="lg:text-lg tracking-tighter lg:leading-8 lg:pr-10">
+      <p>Send us a message and let’s discuss about your ideas, suggestions and
+        more!</p>
+    </div>
+  </div>
+  {{! Contact Description / End }}
+
+  {{! Form }}
+  <div class="col-start-2 md:col-start-6 col-end-12">
+    {{> contact-form }}
+  </div>
+  {{! Form / End }}
+
+  {{! Decoration }}
+  <img class="hidden pointer-events-none md:block absolute -z-10 left-0 bottom-0 md:max-w-[290px] lg:max-w-[370px] xl:max-w-none h-auto" src="{{root}}assets/img/yt1/contact-form-decoration.png" alt="" />
+  {{! Decoration / End }}
+</div>
+{{! Contact Form / Edn }}
+
+
+{{! Contact Details }}
+<div class="grid grid-cols-12 gap-x-6 md:gap-x-[30px] gap-y-8">
+
+  <div class="col-span-full sm:col-span-6 lg:col-span-4">
+    {{! Partnership }}
+    {{#> _yt1-widget-base widget-title="Partnerships" }}
+      {{> _yt1-dl-emails data=yt1.contact.partnerships}}
+    {{/_yt1-widget-base }}
+    {{! Partnership / End }}
+  </div>
+
+  <div class="col-span-full sm:col-span-6 lg:col-span-4">
+    {{! Press & Media }}
+    {{#> _yt1-widget-base widget-title="Press & Media" }}
+      {{> _yt1-dl-emails data=yt1.contact.press-media}}
+    {{/_yt1-widget-base }}
+    {{! Press & Media / End }}
+  </div>
+
+  <div class="col-span-full sm:col-span-6 lg:col-span-4">
+    {{! Social Links }}
+    {{#> _yt1-widget-base widget-title="Social Links" }}
+      {{> _yt1-social-links data=yt1.contact.social }}
+    {{/_yt1-widget-base }}
+    {{! Social Links / End }}
+  </div>
+
+</div>
+{{! Contact Details / End }}

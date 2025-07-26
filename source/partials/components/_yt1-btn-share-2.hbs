@@ -1,0 +1,13 @@
+<a
+  href="{{url}}"
+  class="relative flex items-center justify-center py-4 px-4 text-xs font-bold uppercase leading-none text-white transition-colors
+    {{class}}"
+>
+  <svg
+    class="absolute left-1/2 top-1/2 h-4 w-4 -translate-x-1/2 -translate-y-1/2 sm:left-4 sm:translate-x-0"
+    fill="currentColor"
+  >
+    <use xlink:href="{{root}}assets/img/social-icons.svg#{{icon}}"></use>
+  </svg>
+  <span class="hidden sm:inline">{{title}}</span>
+</a>

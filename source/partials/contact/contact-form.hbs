@@ -1,0 +1,14 @@
+<form class="grid grid-cols-1 md:grid-cols-2 gap-7" action="#">
+  <div class="md:col-span-full lg:col-span-1">
+    {{> _yt1-form-input type="text" name="post-name" id="post-name" placeholder="Name" }}
+  </div>
+  <div class="md:col-span-full lg:col-span-1">
+    {{> _yt1-form-input type="email" name="post-email" id="post-email" placeholder="Email" }}
+  </div>
+  <div class="col-span-full">
+    {{> _yt1-form-textarea textarea-class="h-40 md:h-52" name="post-comment" id="post-comment" placeholder="Your Message"}}
+  </div>
+  <div class="col-span-full">
+    <input class="bg-accent font-bold text-white text-lg tracking-tight py-5 leading-normal mt-4 md:mt-8 hover:cursor-pointer hover:bg-accent/90 transition-colors block w-full" type="submit" value="Send Message" />
+  </div>
+</form>

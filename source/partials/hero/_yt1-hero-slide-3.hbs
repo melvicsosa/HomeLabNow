@@ -1,0 +1,99 @@
+{{! Slides #3 }}
+<div class="swiper-slide group">
+  <div class="relative isolate h-full w-full bg-primary">
+    <div class="container h-full">
+      <div class="grid h-full grid-cols-12 gap-y-10 md:gap-x-6 lg:gap-x-[30px]">
+
+        {{! Content }}
+        <div
+          class="col-span-full md:col-span-8 md:col-start-3 lg:col-span-10 lg:col-start-2"
+        >
+          <div
+            class="px-6 pt-28 text-center md:pt-36 lg:px-0 lg:pt-44 lg:text-left"
+          >
+            <div class="mb-3 lg:mb-6 lg:pt-2">
+              {{! Category }}
+              <a
+                class="bg-accent px-3 py-1 text-xs font-bold uppercase leading-snug text-white transition-colors hover:bg-accent/90 lg:text-sm"
+                href="#"
+              >
+                Unboxings
+              </a>
+              {{! Category / End }}
+            </div>
+
+            {{! Title }}
+            <h2
+              class="mb-6 text-2xl font-bold leading-none tracking-tighter sm:text-2.5xl md:mb-6 md:text-3xl md:leading-none lg:mb-7 lg:text-5.5xl lg:leading-none"
+            >
+              <a
+                href="single-2.html"
+                class="transition-opacity duration-300 hover:opacity-80"
+              >
+                Here’s the X-mas Gamer Box from Powerstation and it packs some
+                surprises
+              </a>
+            </h2>
+            {{! Title / End }}
+
+            {{! Meta }}
+            <ul
+              class="mb-6 flex flex-wrap justify-center divide-x divide-accent text-xs leading-none tracking-tighter text-white md:mb-8 md:text-sm md:text-white lg:mb-14 lg:justify-start lg:text-base lg:text-white"
+            >
+              <li class="px-2 leading-none first:pl-0">December 21st, 2022</li>
+              <li class="px-2 leading-none">Jack Master</li>
+              <li class="px-2 leading-none last:pr-0">3 Comments</li>
+            </ul>
+            {{! Meta / End }}
+
+            {{! Share }}
+            <ul
+              class="flex flex-wrap justify-center gap-4 md:gap-7 lg:justify-start"
+            >
+              <li>
+                <a
+                  href="{{url}}"
+                  class="bg-social-facebook hover:bg-social-facebook/90 relative flex items-center justify-center gap-4 py-3 px-4 text-xs font-bold uppercase leading-none text-white transition-colors lg:py-[14px] lg:pr-8"
+                >
+                  <svg class="h-4 w-4" fill="currentColor">
+                    <use
+                      xlink:href="{{root}}assets/img/social-icons.svg#facebook"
+                    ></use>
+                  </svg>
+                  <span class="hidden sm:inline">Share Post</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="{{url}}"
+                  class="bg-social-twitter hover:bg-social-twitter/90 relative flex items-center justify-center gap-4 py-3 px-4 text-xs font-bold uppercase leading-none text-white transition-colors lg:py-[14px] lg:pr-8"
+                >
+                  <svg class="h-4 w-4" fill="currentColor">
+                    <use
+                      xlink:href="{{root}}assets/img/social-icons.svg#twitter"
+                    ></use>
+                  </svg>
+                  <span class="hidden sm:inline">Tweet Post</span>
+                </a>
+              </li>
+            </ul>
+            {{! Share / End }}
+          </div>
+        </div>
+        {{! Content / End }}
+
+      </div>
+    </div>
+
+    {{! Background Image Layer }}
+    <div
+      class="absolute inset-0 -z-10 bg-[url('../../../assets/img/yt1/samples/hero-img-2.jpg')] bg-cover bg-center bg-no-repeat transition-transform duration-[8000ms] ease-out group-[.swiper-slide-active]:scale-110"
+    ></div>
+    {{! Background Image Layer / End }}
+
+    {{! Layer }}
+    <div class="absolute inset-0 -z-10 bg-gray-900/80"></div>
+    {{! Layer / End }}
+  </div>
+</div>
+{{! Slides #3 / End }}

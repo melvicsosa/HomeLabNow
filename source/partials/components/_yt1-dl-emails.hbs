@@ -1,0 +1,15 @@
+<dl class="flex flex-col gap-y-6">
+  {{#each data}}
+    <div>
+      <dt
+        class="font-bold leading-tight text-primary dark:text-white md:text-lg"
+      >{{label}}</dt>
+      <dd class="md:text-lg">
+        <a
+          class="text-primary transition-colors hover:text-accent dark:text-white dark:hover:text-accent"
+          href="mailto:{{email}}"
+        >{{email}}</a>
+      </dd>
+    </div>
+  {{/each}}
+</dl>
