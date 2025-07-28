@@ -6,14 +6,6 @@
         "url": "index"
       },
       {
-        "title": "Videos",
-        "url": "videos-grid-4"
-      },
-      {
-        "title": "Nosotros",
-        "url": "about"
-      },
-      {
         "title": "Contactos",
         "url": "contact"
       }
@@ -21,16 +13,20 @@
   },
   "channel-info": [
     {
-      "img": "assets/img/yt1/samples/info-slide-1.png",
-      "title": "Gaming Unboxing"
+      "img": "assets/img/yt1/info-slide-14.png",
+      "title": "Cloud Computing"
     },
     {
-      "img": "assets/img/yt1/samples/info-slide-2.png",
-      "title": "Toys Unboxing"
+      "img": "assets/img/yt1/info-slide-15.png",
+      "title": "Firewall & Security"
     },
     {
-      "img": "assets/img/yt1/samples/info-slide-3.png",
-      "title": "Tech & Gadgets Unboxing"
+      "img": "assets/img/yt1/info-slide-13.png",
+      "title": "Server Infrastructure"
+    },
+    {
+      "img": "assets/img/yt1/info-slide-1.png",
+      "title": "Operating System"
     }
   ],
   "about": {
@@ -389,6 +385,11 @@
             "label": "Youtube",
             "url": "#",
             "icon": "youtube"
+          },
+          {
+            "label": "Linkedin",
+            "url": "#",
+            "icon": "linkedin"
           }
         ],
         "details": "I started the unboxing videos in 2012 and the channel kept growing bigger and bigger since. Hope you like all my videos!"
@@ -467,431 +468,349 @@
     ],
     "feed": [
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Top 10 Best Places in Japan to get Deluxe Edition Boxes!",
+        "title": "Creando reglas básicas en pfSense 2.7.2: Guía paso a paso",
+        "url": "https://www.youtube.com/watch?v=3TneuxlSJsw",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-1-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-1-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/3TneuxlSJsw/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/3TneuxlSJsw/hqdefault.jpg"
         },
         "meta": {
-          "views": "734K",
-          "date": "6 hours ago"
-        }
+          "views": "67",
+          "date": "Jul 14, 2025"
+        },
+        "publishedAt": "2025-07-14"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Ranking the Best Sunglasses Bundles for this Summer!",
+        "title": "30. Configurando Remote Desktop Services: Standard Deployment Removiendo Advertencias de RemoteApps",
+        "url": "https://www.youtube.com/watch?v=Lb3ZWxwLcP0",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-2-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-2-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/Lb3ZWxwLcP0/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/Lb3ZWxwLcP0/hqdefault.jpg"
         },
         "meta": {
-          "views": "204K",
-          "date": "7 hours ago"
-        }
+          "views": "92",
+          "date": "Jul 7, 2025"
+        },
+        "publishedAt": "2025-07-07"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "We Unbox the “Power Computer Bundle” for Gaming",
+        "title": "29. Configurando Remote Desktop Services: Standard Deployment publicando RemoteApps",
+        "url": "https://www.youtube.com/watch?v=BV2IwDJf1gg",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-3-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-3-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/BV2IwDJf1gg/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/BV2IwDJf1gg/hqdefault.jpg"
         },
         "meta": {
-          "views": "190K",
-          "date": "13 hours ago"
-        }
+          "views": "68",
+          "date": "Jun 30, 2025"
+        },
+        "publishedAt": "2025-06-30"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "This are the Best Gadgets to Take when you go Camping!",
+        "title": "28. Configurando Remote Desktop Services: Standard Deployment paso a paso",
+        "url": "https://www.youtube.com/watch?v=RpWKo8uhXbc",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-4-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-4-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/RpWKo8uhXbc/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/RpWKo8uhXbc/hqdefault.jpg"
         },
         "meta": {
-          "views": "362K",
-          "date": "1 day ago"
-        }
+          "views": "118",
+          "date": "Jun 16, 2025"
+        },
+        "publishedAt": "2025-06-16"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Unboxing the Adventures and Travel Gadgets Pack",
+        "title": "27. Configurando Remote Desktop Services: Quick Start - Remote Apps paso a paso",
+        "url": "https://www.youtube.com/watch?v=N0u89IUriG8",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-5-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-5-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/N0u89IUriG8/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/N0u89IUriG8/hqdefault.jpg"
         },
         "meta": {
-          "views": "425K",
-          "date": "2 days ago"
-        }
+          "views": "197",
+          "date": "Jun 9, 2025"
+        },
+        "publishedAt": "2025-06-09"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Exclusive Preview of the New Powerstation Joystick!",
+        "title": "26. Configurando Remote Desktop Services: Quick Start - Instalación y configuración paso a paso",
+        "url": "https://www.youtube.com/watch?v=kC05KAIHkMw",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-6-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-6-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/kC05KAIHkMw/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/kC05KAIHkMw/hqdefault.jpg"
         },
         "meta": {
-          "views": "1.2M",
-          "date": "5 days ago"
-        }
+          "views": "266",
+          "date": "May 12, 2025"
+        },
+        "publishedAt": "2025-05-12"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The 5 Best Neon Gadgets and Widgets for your Desk",
+        "title": "Asegurando pfSense 2.7.2: Guía paso a paso",
+        "url": "https://www.youtube.com/watch?v=WnuxXsmf-6Y",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-7-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-7-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/WnuxXsmf-6Y/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/WnuxXsmf-6Y/hqdefault.jpg"
         },
         "meta": {
-          "views": "270K",
-          "date": "4 weeks ago"
-        }
+          "views": "312",
+          "date": "Apr 3, 2025"
+        },
+        "publishedAt": "2025-04-03"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Check out the Witch Hunter’s Amazing Edition Statue",
+        "title": "25. Configurando GPOs: Entendiendo los Filtros de seguridad",
+        "url": "https://www.youtube.com/watch?v=a2s2rn3pW6M",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-8-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-8-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/a2s2rn3pW6M/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/a2s2rn3pW6M/hqdefault.jpg"
         },
         "meta": {
-          "views": "680K",
-          "date": "19 hours ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The New Pearly White Joystick Pack is a Piece of Art",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-9-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-9-370x208.jpg"
+          "views": "143",
+          "date": "Mar 31, 2025"
         },
-        "meta": {
-          "views": "34K",
-          "date": "6 hours ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Mochi’s Island - Red Dasher Edition Preorder Unbox",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-10-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-10-370x208.jpg"
-        },
-        "meta": {
-          "views": "457K",
-          "date": "1 week ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Exclusive Unboxing of the Soccer International Pro 20 Gold Box",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-11-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-11-370x208.jpg"
-        },
-        "meta": {
-          "views": "336K",
-          "date": "1 week ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Last of Them II Deluxe Version comes with a PVC Statue",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-12-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-12-370x208.jpg"
-        },
-        "meta": {
-          "views": "256K",
-          "date": "3 weeks ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Best Comic Toys, Figures and Statues of ToyCon",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-13-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-13-370x208.jpg"
-        },
-        "meta": {
-          "views": "994K",
-          "date": "3 weeks ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Neon Gadgets Unboxing Featuring Jenna Da Huntress",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-14-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-14-370x208.jpg"
-        },
-        "meta": {
-          "views": "427K views",
-          "date": "4 weeks ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Witch and the Orc II has an Incredible Pack Filled with Goods!",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-15-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-15-370x208.jpg"
-        },
-        "meta": {
-          "views": "241K",
-          "date": "2 months ago"
-        }
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Unboxing the Cheapest Laptops for Photography and Design",
-        "thumb": {
-          "md": "assets/img/yt1/samples/video-16-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-16-270x152.jpg"
-        },
-        "meta": {
-          "views": "125K",
-          "date": "4 months ago"
-        }
+        "publishedAt": "2025-03-31"
       }
     ],
     "featured-gaming": [
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Mochi’s Island - Red Dasher Edition Preorder Unbox",
+        "url": "https://www.youtube.com/watch?v=IwW6MT9bbrA",
+        "title": "23. Configurando GPOs: Aprendiendo a trabajar con Grupos Restrictivos",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-10-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-10-370x208.jpg"
+          "lg": "https://i.ytimg.com/vi/IwW6MT9bbrA/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/IwW6MT9bbrA/mqdefault.jpg"
         },
         "meta": {
-          "views": "457K",
-          "date": "1 week ago"
+          "views": "129",
+          "date": "Mar 8, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Check out the Witch Hunter’s Amazing Edition Statue",
+        "url": "https://www.youtube.com/watch?v=MIJ7Inf7C6c",
+        "title": "24. Configurando GPOs: Aprendiendo a trabajar con la Herencia",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-8-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-8-370x208.jpg"
+          "lg": "https://i.ytimg.com/vi/MIJ7Inf7C6c/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/MIJ7Inf7C6c/mqdefault.jpg"
         },
         "meta": {
-          "views": "680K",
-          "date": "19 hours ago"
+          "views": "180",
+          "date": "Mar 23, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The New Pearly White Joystick Pack is a Piece of Art",
+        "url": "https://www.youtube.com/watch?v=a2s2rn3pW6M",
+        "title": "25. Configurando GPOs: Entendiendo los Filtros de seguridad",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-9-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-9-370x208.jpg"
+          "lg": "https://i.ytimg.com/vi/a2s2rn3pW6M/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/a2s2rn3pW6M/mqdefault.jpg"
         },
         "meta": {
-          "views": "34K",
-          "date": "6 hours ago"
+          "views": "143",
+          "date": "Mar 29, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Witch and the Orc II has an Incredible Pack Filled with Goods!",
+        "url": "https://www.youtube.com/watch?v=kC05KAIHkMw",
+        "title": "26. Configurando Remote Desktop Services: Quick Start - Instalación y configuración paso a paso",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-15-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-15-370x208.jpg"
+          "lg": "https://i.ytimg.com/vi/kC05KAIHkMw/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/kC05KAIHkMw/mqdefault.jpg"
         },
         "meta": {
-          "views": "241K",
-          "date": "2 months ago"
+          "views": "266",
+          "date": "May 11, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Best Comic Toys, Figures and Statues of ToyCon",
+        "url": "https://www.youtube.com/watch?v=N0u89IUriG8",
+        "title": "27. Configurando Remote Desktop Services: Quick Start - Remote Apps paso a paso",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-13-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-13-370x208.jpg"
+          "lg": "https://i.ytimg.com/vi/N0u89IUriG8/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/N0u89IUriG8/mqdefault.jpg"
         },
         "meta": {
-          "views": "994K",
-          "date": "3 weeks ago"
+          "views": "197",
+          "date": "Jun 8, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Neon Gadgets Unboxing Featuring Jenna Da Huntress",
+        "url": "https://www.youtube.com/watch?v=RpWKo8uhXbc",
+        "title": "28. Configurando Remote Desktop Services: Standard Deployment paso a paso",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-14-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-14-370x208.jpg"
+          "lg": "https://i.ytimg.com/vi/RpWKo8uhXbc/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/RpWKo8uhXbc/mqdefault.jpg"
         },
         "meta": {
-          "views": "427K views",
-          "date": "4 weeks ago"
+          "views": "118",
+          "date": "Jun 15, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Unboxing the Cheapest Laptops for Photography and Design",
+        "url": "https://www.youtube.com/watch?v=BV2IwDJf1gg",
+        "title": "29. Configurando Remote Desktop Services: Standard Deployment publicando RemoteApps",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-16-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-16-270x152.jpg"
+          "lg": "https://i.ytimg.com/vi/BV2IwDJf1gg/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/BV2IwDJf1gg/mqdefault.jpg"
         },
         "meta": {
-          "views": "125K",
-          "date": "4 months ago"
+          "views": "68",
+          "date": "Jun 28, 2025"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Lb3ZWxwLcP0",
+        "title": "30. Configurando Remote Desktop Services: Standard Deployment Removiendo Advertencias de RemoteApps",
+        "thumb": {
+          "lg": "https://i.ytimg.com/vi/Lb3ZWxwLcP0/hqdefault.jpg",
+          "md": "https://i.ytimg.com/vi/Lb3ZWxwLcP0/mqdefault.jpg"
+        },
+        "meta": {
+          "views": "92",
+          "date": "Jul 5, 2025"
         }
       }
     ],
     "featured": [
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Top 10 Best Places in Japan to get Deluxe Edition Boxes!",
+        "url": "https://www.youtube.com/watch?v=2IhkkONvgdA",
+        "title": "1. Instalando Windows Server 2022 desde Cero: Guía paso a paso",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-1-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-1-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/2IhkkONvgdA/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/2IhkkONvgdA/hqdefault.jpg"
         },
         "meta": {
-          "views": "734K",
-          "date": "6 hours ago"
+          "views": "8K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Mochi’s Island - Red Dasher Edition Preorder Unbox",
+        "url": "https://www.youtube.com/watch?v=jaWY6AqF_6Y",
+        "title": "Como configurar Direct Access en Windows Server 2016",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-10-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-10-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/jaWY6AqF_6Y/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/jaWY6AqF_6Y/hqdefault.jpg"
         },
         "meta": {
-          "views": "457K",
-          "date": "1 week ago"
+          "views": "6.5K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Exclusive Preview of the New Powerstation Joystick!",
+        "url": "https://www.youtube.com/watch?v=6sTPk11zawY",
+        "title": "Domina Hyper-V: Crea Tu Propio Cluster Épico Paso a Paso",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-6-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-6-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/6sTPk11zawY/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/6sTPk11zawY/hqdefault.jpg"
         },
         "meta": {
-          "views": "1.2M",
-          "date": "5 days ago"
+          "views": "6K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The 5 Best Neon Gadgets and Widgets for your Desk",
+        "url": "https://www.youtube.com/watch?v=inKicGRwP7w",
+        "title": "Instalando Roles y Caracteristicas en Windows Server 2019",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-7-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-7-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/inKicGRwP7w/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/inKicGRwP7w/hqdefault.jpg"
         },
         "meta": {
-          "views": "270K",
-          "date": "4 weeks ago"
+          "views": "5.7K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "Check out the Witch Hunter’s Amazing Edition Statue",
+        "url": "https://www.youtube.com/watch?v=inKicGRwP7w",
+        "title": "Instalando Roles y Caracteristicas en Windows Server 2019",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-8-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-8-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/inKicGRwP7w/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/inKicGRwP7w/hqdefault.jpg"
         },
         "meta": {
-          "views": "680K",
-          "date": "19 hours ago"
+          "views": "5.7K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The New Pearly White Joystick Pack is a Piece of Art",
+        "url": "https://www.youtube.com/watch?v=bdnmFSNSmfk",
+        "title": "Redes Virtuales en Hyper-V de 0 a 100",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-9-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-9-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/bdnmFSNSmfk/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/bdnmFSNSmfk/hqdefault.jpg"
         },
         "meta": {
-          "views": "34K",
-          "date": "6 hours ago"
+          "views": "4.7K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Witch and the Orc II has an Incredible Pack Filled with Goods!",
+        "url": "https://www.youtube.com/watch?v=0OI8i9K0ZbE",
+        "title": "Windows Server 2025: Instalación básica paso a paso",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-15-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-15-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/0OI8i9K0ZbE/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/0OI8i9K0ZbE/hqdefault.jpg"
         },
         "meta": {
-          "views": "241K",
-          "date": "2 months ago"
+          "views": "4.6K",
+          "date": "Jul 27, 2025"
         }
       },
       {
-        "url": "https://www.youtube.com/watch?v=XE0fU9PCrWE",
-        "title": "The Best Comic Toys, Figures and Statues of ToyCon",
+        "url": "https://www.youtube.com/watch?v=PfwYqrjxuPo",
+        "title": "Configurar y Gestionar Hyper-V Server 2019 desde Windows 10",
         "thumb": {
-          "md": "assets/img/yt1/samples/video-13-270x152.jpg",
-          "lg": "assets/img/yt1/samples/video-13-370x208.jpg"
+          "md": "https://i.ytimg.com/vi/PfwYqrjxuPo/mqdefault.jpg",
+          "lg": "https://i.ytimg.com/vi/PfwYqrjxuPo/hqdefault.jpg"
         },
         "meta": {
-          "views": "994K",
-          "date": "3 weeks ago"
+          "views": "5.6K",
+          "date": "Jul 27, 2025"
         }
       }
     ]
   },
   "playlists": [
     {
-      "cover": "assets/img/yt1/samples/playlist-cover-1-430x600.jpg",
-      "title": "Guests Unboxings",
-      "url": "#",
-      "count": "44"
+      "cover": "assets/img/yt1/playlist/playlist-cover-3-windows-server.jpg",
+      "title": "Curso Completo de Windows Server 2022: Instalación y Administración",
+      "url": "https://www.youtube.com/playlist?list=PLixu9Vf-7p-N202nUeO3LvLbtGA8T0rnn",
+      "count": "43"
     },
     {
-      "cover": "assets/img/yt1/samples/playlist-cover-3-430x600.jpg",
-      "title": "Outdoor Gadgets Unboxing",
-      "url": "#",
-      "count": "37"
+      "cover": "assets/img/yt1/playlist/playlist-cover-2-azure.jpg",
+      "title": "Aprendiendo Azure: Guías paso a paso",
+      "url": "https://www.youtube.com/playlist?list=PLixu9Vf-7p-N5EJccMbU0Z7ptjSn0Ba8P",
+      "count": "3"
     },
     {
-      "cover": "assets/img/yt1/samples/playlist-cover-5-430x600.jpg",
-      "title": "TechCon 2022 Unboxings",
-      "url": "#",
-      "count": "12"
+      "cover": "assets/img/yt1/playlist/playlist-cover-1-os.jpg",
+      "title": "Curso práctico: Desplegando Sistemas Operativos con Windows Deployment Service",
+      "url": "https://www.youtube.com/playlist?list=PLixu9Vf-7p-PPP1PE3daF94iuUDlzSoHz",
+      "count": "5"
     },
     {
-      "cover": "assets/img/yt1/samples/playlist-cover-4-430x600.jpg",
-      "title": "Toys Unboxings",
-      "url": "#",
-      "count": "31"
+      "cover": "assets/img/yt1/playlist/playlist-cover-1-pfSense.jpg",
+      "title": "Aprendiendo pfSense",
+      "url": "https://www.youtube.com/playlist?list=PLixu9Vf-7p-PkhG85CxT-eHzgDYDWgnk4",
+      "count": "3"
     },
     {
-      "cover": "assets/img/yt1/samples/playlist-cover-2-430x600.jpg",
-      "title": "Gaming Unboxings",
-      "url": "#",
-      "count": "65"
+      "cover": "assets/img/yt1/playlist/playlist-cover-1-rdp.jpg",
+      "title": "Remote Desktop Services (RDS)",
+      "url": "https://www.youtube.com/playlist?list=PLixu9Vf-7p-N96T9_qPOMjbydKnJ_-gx9",
+      "count": "10"
+    },
+    {
+      "cover": "assets/img/yt1/playlist/playlist-cover-1-hyper-v.jpg",
+      "title": "Curso de Hyper-V Server",
+      "url": "https://www.youtube.com/playlist?list=PLixu9Vf-7p-MfYuM-HsGwnCdFIk0wdqxd",
+      "count": "8"
     }
   ],
   "account": [
     {
       "title": "Personal Info",
       "url": "_yt1-account-info"
-    },
-    {
-      "title": "Billing Details",
-      "url": "_yt1-account-billing"
-    },
-    {
-      "title": "Shipping Details",
-      "url": "_yt1-account-shipping"
-    },
-    {
-      "title": "Orders",
-      "url": "_yt1-account-orders"
     },
     {
       "title": "Logout",
@@ -901,40 +820,26 @@
   "contact": {
     "partnerships": [
       {
-        "label": "Become a Partner",
-        "email": "partners@unboxvlogs.com"
+        "label": "Conviertete en Patrocinador",
+        "email": "partner@homelabnow.com"
       }
     ],
     "press-media": [
       {
-        "label": "Press Consultant",
-        "email": "jrodgers@unboxvlogs.com"
-      },
-      {
-        "label": "Media Manager",
-        "email": "mstevens@unboxvlogs.com"
+        "label": "Información General",
+        "email": "info@homelabnow.com"
       }
     ],
     "social": [
       {
-        "label": "Facebook",
-        "url": "https://www.facebook.com/danfisher.dev",
-        "icon": "facebook"
-      },
-      {
-        "label": "Twitter",
-        "url": "https://twitter.com/danfisher_dev",
-        "icon": "twitter"
-      },
-      {
-        "label": "Instagram",
-        "url": "http://instagram.com/dan.fisher.dev/",
-        "icon": "instagram"
-      },
-      {
         "label": "Youtube",
         "url": "https://www.youtube.com/channel/UCbYqVTgLVezPsFZAA_QsvFw",
         "icon": "youtube"
+      },
+      {
+        "label": "Linkedin",
+        "url": "https://www.linkedin.com/in/jancarlosduartemosquea/",
+        "icon": "linkedin"
       }
     ]
   },
@@ -968,24 +873,24 @@
   },
   "social": [
     {
-      "label": "Facebook",
-      "url": "#",
-      "icon": "facebook"
-    },
-    {
-      "label": "Twitter",
-      "url": "#",
-      "icon": "twitter"
-    },
-    {
       "label": "Instagram",
       "url": "#",
       "icon": "instagram"
     },
     {
       "label": "Youtube",
-      "url": "#",
+      "url": "https://www.youtube.com/channel/UCbYqVTgLVezPsFZAA_QsvFw",
       "icon": "youtube"
+    },
+    {
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/jancarlosduartemosquea/",
+      "icon": "linkedin"
     }
-  ]
+  ],
+  "channel": {
+    "subscriberCount": 2570,
+    "name": "HomeLabNow",
+    "handle": "@jancarlosdm"
+  }
 }

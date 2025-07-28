@@ -39,15 +39,16 @@ module.exports = {
           'facebook': '#1877F2',
           'twitter': '#1DA1F2',
           'instagram': '#E4405F',
-          'youtube': '#FF0000'
+          'youtube': '#FF0000',
+          'linkedin': '#0077B6',
         },
         info: '#23d2e2',
         danger: '#ff3d54',
         success: '#615dfa',
       },
       fontFamily: {
-        base: [ '"Poppins", sans-serif' ],
-        heading: [ '"Poppins", sans-serif' ]
+        base: ['"Poppins", sans-serif'],
+        heading: ['"Poppins", sans-serif']
       },
       fontSize: {
         '3xs': '0.625rem',
@@ -135,7 +136,7 @@ module.exports = {
       },
       keyframes: {
         'spike-roll': {
-          "0%" : { backgroundSize: "4px 4px" },
+          "0%": { backgroundSize: "4px 4px" },
           "12.5%": { backgroundSize: "4px 40px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px" },
           "25%": { backgroundSize: "4px 30px, 4px 40px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px" },
           "37.5%": { backgroundSize: "4px 10px, 4px 30px, 4px 40px, 4px 4px, 4px 4px, 4px 4px, 4px 4px, 4px 4px" },

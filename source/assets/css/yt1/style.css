@@ -40,6 +40,9 @@
   .vv-social-list-color a[href*="youtube.com"] {
     background-color: theme('colors.social.youtube');
   }
+  .vv-social-list-color a[href*="linkedin.com"] {
+    background-color: theme('colors.social.linkedin');
+  }
 
   /* Loader Spikes Roll */
   .vv-preloader-spikes-roll {

@@ -1,7 +1,7 @@
 {{! Section: Featured Playlists }}
-<section class="py-14 pb-7 md:py-32 md:pb-16 lg:py-44 lg:pb-20 xl:py-48 xl:pb-24">
+<section class="py-14 pb-7 md:py-24 md:pb-16 lg:py-20 lg:pb-20 xl:py-20 xl:pb-24">
   <div class="container">
-    {{> _yt1-section-heading title="Featured Playlists" subtitle="Unbox vlogs" isCentered="true" }}
+    {{> _yt1-section-heading title="Cursos Destacados" subtitle="Cursos de IT & Infraestructura" isCentered="true" }}
   </div>
 
   {{! Playlist Slider }}
@@ -20,7 +20,7 @@
             />
 
             {{! Info }}
-            <div class="absolute left-7 w-1/2 md:w-1/2 lg:w-2/5 xl:w-1/3 bottom-6 z-10 text-white">
+            <div class="absolute left-7 w-1/2 md:w-1/2 lg:w-2/5 bottom-6 z-10 text-white">
               <h3 class="text-1.5xl font-bold leading-tighter mb-2">{{title}}</h3>
               <div class="text-sm leading-tight">{{count}} videos</div>
             </div>
@@ -45,7 +45,7 @@
     <div class="flex flex-wrap items-center justify-between">
       {{! More Link }}
       <div
-        class="inline-flex items-center gap-x-3 text-xs font-bold uppercase text-primary md:text-sm"
+        class="inline-flex items-center gap-x-3 text-sm font-bold uppercase text-primary md:text-xl"
       >
         <span
           class="relative inline-flex h-[18px] w-[18px] items-center justify-center rounded-full border-2 border-primary dark:border-white"
@@ -56,8 +56,8 @@
         </span>
         <a
           class="text-primary hover:text-accent dark:text-white dark:hover:text-accent"
-          href="#"
-        >Browse all playlists</a>
+          href="https://www.youtube.com/@HomeLabNow"
+        >Ver Todos los Cursos</a>
       </div>
       {{! More Link / End }}
       {{! Prev/Next }}
@@ -65,14 +65,14 @@
         <div
           class="vv-playlist-swiper-btn-prev flex h-[60px] w-[50px] items-center justify-center bg-white text-primary hover:cursor-pointer hover:text-accent dark:bg-gray-900 dark:text-white dark:hover:text-accent"
         >
-          <svg class="h-2 w-2" fill="currentColor">
+          <svg class="h-4 w-4" fill="currentColor">
             <use xlink:href="{{root}}assets/img/yt1/sprite.svg#chevron-left"></use>
           </svg>
         </div>
         <div
           class="vv-playlist-swiper-btn-next flex h-[60px] w-[50px] items-center justify-center bg-white text-primary hover:cursor-pointer hover:text-accent dark:bg-gray-900 dark:text-white dark:hover:text-accent"
         >
-          <svg class="h-2 w-2" fill="currentColor">
+          <svg class="h-4 w-4" fill="currentColor">
             <use xlink:href="{{root}}assets/img/yt1/sprite.svg#chevron-right"></use>
           </svg>
         </div>
