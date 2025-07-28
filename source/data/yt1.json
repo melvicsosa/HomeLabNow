@@ -18,7 +18,7 @@
     },
     {
       "img": "assets/img/yt1/info-slide-15.png",
-      "title": "Firewall & Security"
+      "title": "Firewalls & Security"
     },
     {
       "img": "assets/img/yt1/info-slide-13.png",
@@ -26,7 +26,7 @@
     },
     {
       "img": "assets/img/yt1/info-slide-1.png",
-      "title": "Operating System"
+      "title": "Operating System & Networking"
     }
   ],
   "about": {
@@ -833,7 +833,7 @@
     "social": [
       {
         "label": "Youtube",
-        "url": "https://www.youtube.com/channel/UCbYqVTgLVezPsFZAA_QsvFw",
+        "url": "https://www.youtube.com/@JanCarlosDM",
         "icon": "youtube"
       },
       {
@@ -874,7 +874,7 @@
   "social": [
     {
       "label": "Youtube",
-      "url": "https://www.youtube.com/@HomeLabNow",
+      "url": "https://www.youtube.com/@JanCarlosDM",
       "icon": "youtube"
     },
     {
