@@ -52,7 +52,7 @@ HomeLabNow/
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:melvicsosa/HomeLabNow.git
+   git clone
    cd HomeLabNow
    ```
 
@@ -81,14 +81,7 @@ HomeLabNow/
 The project includes two Tailwind configurations:
 
 - **`tailwind.config.js`**: Main configuration with custom color palette
-  - Primary: `#ff3d54`
-  - Secondary: `#654cff`
-  - Fonts: Open Sans, Jost
-
 - **`tailwind.yt1.config.js`**: Alternative theme with dark mode support
-  - Primary: `#3b3958`
-  - Font: Poppins
-  - Includes custom animations
 
 ### Adding Content
 
@@ -109,12 +102,6 @@ npm run deploy
 
 **Melvic Sosa**
 - Website: [https://melvicsosa.dev/](https://melvicsosa.dev/)
-
-## 🙏 Acknowledgments
-
-- Built with modern web technologies
-- Inspired by home lab and technology communities
-- Thanks to all contributors and the open source community
 
 ---
 
