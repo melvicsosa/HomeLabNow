@@ -6,8 +6,12 @@
         "url": "index"
       },
       {
+        "title": "Sobre mí",
+        "url": "sobre-mi"
+      },
+      {
         "title": "Contactos",
-        "url": "contact"
+        "url": "contactos"
       }
     ]
   },
@@ -33,18 +37,18 @@
     "services": [
       {
         "icon": "book",
-        "title": "Educating<br> the Consumers",
-        "desc": "Duis aute irure dolor in reprehenderit in uptate velit esse cillum dolore eu fugiat pariatur excepteur sint occaecat."
+        "title": "Apréndelo",
+        "desc": "Aquí compartimos conocimientos técnicos reales, aplicables y actuales. Desde servidores hasta redes, desde PowerShell hasta Azure, te enseño paso a paso para que entiendas cómo funcionan las cosas y puedas aplicarlo en tu carrera o en tu laboratorio personal."
       },
       {
         "icon": "piggy",
-        "title": "Make you<br> Save Money",
-        "desc": "Duis aute irure dolor in reprehenderit in uptate velit esse cillum dolore eu fugiat pariatur excepteur sint occaecat."
+        "title": "Compártelo",
+        "desc": "La tecnología no debe quedarse guardada. Cuando compartimos lo que aprendemos, crecemos todos. Este canal es una comunidad, un espacio donde puedes enseñar, preguntar, comentar y contribuir con otros que también están en el camino del aprendizaje."
       },
       {
         "icon": "review-ballon",
-        "title": "Honest Item<br> Reviews",
-        "desc": "Duis aute irure dolor in reprehenderit in uptate velit esse cillum dolore eu fugiat pariatur excepteur sint occaecat."
+        "title": "¡Casi rico!",
+        "desc": "No se trata solo de dinero, sino del valor acumulado del conocimiento, el crecimiento profesional y las oportunidades que vienen cuando haces las cosas bien. Si aplicas lo que aprendes, ayudas a otros y te mantienes constante… poco a poco, te vas haciendo ¡Casi rico!"
       }
     ],
     "stats": {
@@ -866,8 +870,8 @@
         "url": "contact"
       },
       {
-        "label": "Sobre nosotros",
-        "url": "about"
+        "label": "Sobre mí",
+        "url": "sobre-mi"
       }
     ]
   },
