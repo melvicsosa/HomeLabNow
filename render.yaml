@@ -1,0 +1,22 @@
+services:
+  # Your existing static site
+  - type: web
+    name: homelabnow-static
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    
+  # New cron job for YouTube data updates
+  - type: cron
+    name: youtube-data-updater
+    env: node
+    schedule: "0 */6 * * *"  # Every 6 hours
+    buildCommand: npm install
+    startCommand: node scripts/update-youtube-data.js
+    envVars:
+      - key: YOUTUBE_API_KEY
+        sync: false
+      - key: YOUTUBE_CHANNEL_ID
+        sync: false
+      - key: NODE_ENV
+        value: production
